@@ -1,0 +1,13 @@
+# 存放图片的主路径
+base_img_dir: images
+
+image:
+  # 限制图片的最大物理大小（MB）
+  max_size: 2
+  # 图片尺寸，可传多个
+  dimensions:
+    - 980, 980
+    - 2048, 1536
+  # 背景颜色，RGB值（例如：黑色-(0,0,0) 白色-(255,255,255) 其他颜色值请参考：https://tool.oschina.net/commons?type=3）
+  bg_color_rgb: (0, 0, 0)
+
